@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.elements {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+   
+}
+
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}

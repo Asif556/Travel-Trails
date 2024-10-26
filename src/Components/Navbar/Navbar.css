@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+ 
+  .links span{
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin: 0 15px;
+    transition: color 0.3s;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    
+    animation: changecolor 0.8s ease-in-out;
+  }
+  @keyframes changecolor {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+  }
+  
+  .links span:hover {
+    color: #ffd700;
+    cursor: pointer;
+  }
+
+  .logo{
+    font-size: 1.2rem;
+    font-weight:900;
+    font-family:'Times New Roman', Times, serif;
+    transition: all 0.5s;
+    color: #1D2B53;
+    text-shadow: 2px 2px white;  
+  }
+  .logo:hover{
+    cursor: pointer;
+  }
+  

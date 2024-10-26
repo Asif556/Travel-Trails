@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Langar');
+.Predict{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/Predict.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-position: center; 
+  font-family: Arial, sans-serif;
+}
+.form{
+    height: 3rem;
+    width: 40rem;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    margin-left: 13rem;
+    gap:1rem;
+    input{
+        height: 1.8rem;
+        border-radius: 10px;
+        width: 11rem;
+       font-size: 1rem;
+       padding-left: 1rem;
+       font-family: 'Langar', cursive;
+       color: #000;
+    }
+}
+.note{
+    height: 1.5rem;
+    font-size: 1.3rem;
+    font-family: 'Langar', cursive;
+    color: rgba(2, 117, 2, 0.975);
+    margin-right: 40rem;
+    margin-left: 35rem;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+
+}
+label{
+    font-size: 1.2rem;
+    font-weight: 800;
+    color:black;
+    font-family:cursive;
+}
+.submitbtn{
+    height: 2.5rem;
+    width: 9rem;
+    border-radius: 2rem;
+    background-color: rgb(86,126,164);
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all 0.4s;
+}
+.submitbtn:hover{
+    cursor: pointer;
+    background-color: aqua;
+   
+    box-shadow: 15px 5px 5px black;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4rem;
+}
+.ans{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    color: aqua;
+    margin-right: 5rem;
+    
+}
+
+span{
+    color:red
+}
+#btn{
+    height: 3.2rem;
+    width: 11rem;
+    border-radius: 2rem;
+    background-color: rgb(86,126,164);
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all 0.4s;
+}
+#btn:hover{
+    color: white;
+    background: rgb(221, 144, 1);
+}

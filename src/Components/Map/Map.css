@@ -1,0 +1,28 @@
+body{
+    background: radial-gradient(circle,#192655, #A0E9FF, #64CCC5, #0766AD); 
+    margin: 0;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.map{
+    margin-left: 10rem;
+}
+
+svg path {
+    width: 100%;
+    height: auto;
+    stroke: #706233;
+    stroke-width: 0.25;
+    fill: #E1C78F;
+    transition: fill 0.3s ease; 
+}
+
+svg path:hover {
+    fill: #65451F;
+    transition: 0.6s;
+    cursor: pointer;  
+}

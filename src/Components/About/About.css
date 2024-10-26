@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Langar');
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Typewriter__wrapper{
+    color: #1D2B53; 
+    font-size: 4rem;
+    font-weight: 900;
+    text-shadow: 2px 2px white;
+}
+
+.description {
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 800;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    text-align: center;
+    padding-top: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    word-spacing: 13px;
+}
+
+button {
+    width: 115px;
+    height: 45px;
+    margin-top: 2rem;
+    background-color: #97FEED;
+    border-radius: 30px;
+    color: rgb(19, 19, 19);
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    position: relative;
+    transition: all 0.5s;
+}
+
+.button {
+    padding-top: 2rem;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 15px 5px 5px black;
+    transform: scale(1.1);
+    background-color: rgb(197, 124, 8);
+}
