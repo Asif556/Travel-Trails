@@ -56,5 +56,5 @@
 
 <h2>Contributing</h2>
 <p>
-    Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes. Special thanks to my friend for their support and contributions. Check out their GitHub profile here: <a href="https://github.com/YourFriendGitHubLink" target="_blank">Your Friend's GitHub</a>.
+    Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 </p>
