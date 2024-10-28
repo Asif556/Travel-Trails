@@ -2,7 +2,7 @@
     margin: 0;
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #fff8e1, #ffecb3);
-    background-image: url("./Goa.jpg");
+    background-image: url("/Goa.jpg");
     text-align: center;
     padding: 20px;
 }
