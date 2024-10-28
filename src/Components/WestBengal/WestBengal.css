@@ -2,7 +2,7 @@
     margin: 0;
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #f9f9f9, #e0dede);
-    background-image: url("//Darjeeling.jpg");
+    background-image: url("/darjeeling.jpg");
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
